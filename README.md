@@ -1,14 +1,12 @@
 ** Forked from https://github.com/chetanverma16/react-portfolio-template/ **
 
-hello@chetanverma.com
-
 ## How To Use
 
 From your command line, clone and run react-portfolio-template:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/chetanverma16/react-portfolio-template
+$ git clone https://github.com/bethwickerson/michaelwickerson.com.git
 
 # Go into the repository
 $ cd react-portfolio-template

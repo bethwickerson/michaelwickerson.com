@@ -12,7 +12,7 @@
     "gatsby-plugin-react-helmet": "^5.6.0",
     "gatsby-plugin-sass": "^5.6.0",
     "gatsby-plugin-sharp": "^4.6.0",
-    "gatsby-plugin-smoothscroll": "^1.20",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-remark-images-contentful": "^5.6.0",
     "gatsby-source-contentful": "^7.4.0",
     "gatsby-source-filesystem": "^4.6.0",

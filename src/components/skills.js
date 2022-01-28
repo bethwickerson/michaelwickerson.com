@@ -12,7 +12,7 @@ const Skills = () => {
               <div className="skill" key={index}>
                 <img src={skill.img} alt="css"></img>
                 <h3>{skill.title}</h3>
-                <p>{skill.para} {skill.url ? <a className="link" href={skill.url}>details ></a> : null}</p>
+                <p>{skill.para} {skill.url ? <a className="link" href={skill.url}>view &rsaquo;</a> : null}</p>
                 
               </div>
             ))}

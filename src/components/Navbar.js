@@ -15,9 +15,27 @@ const Navbar = () => {
             {data.name}
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => {
+              scrollTo("#work");
+              document.getElementById('work').focus();
+              }} onKeyDown={() => {
+              scrollTo("#work");
+              document.getElementById('work').focus();
+              }}>WORK</button>
+            <button onClick={() => {
+              scrollTo("#about");
+              document.getElementById('about').focus();
+              }} onKeyDown={() => {
+              scrollTo("#about");
+              document.getElementById('about').focus();
+              }}>ABOUT</button>
+            <button onClick={() => {
+              scrollTo("#contact");
+              document.getElementById('contact').focus();
+            }} onKeyDown={() => {
+              scrollTo("#contact");
+              document.getElementById('contact').focus();
+            }}>CONTACT</button>
           </div>
         </div>
       </div>

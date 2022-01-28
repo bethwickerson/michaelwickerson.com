@@ -5,7 +5,7 @@ import cvPDF from "../images/CV-Summer-2021-Wickerson-ArtDesign.pdf"
 
 const About = () => {
   return (
-    <div className="secion" id="about">
+    <div className="secion" id="about" tabIndex={-1}>
       <div className="container">
         <div className="about-section">
           <div className="content">
@@ -22,7 +22,7 @@ const About = () => {
               <span className="small">{data.aboutParaThree}</span>
             </p>
 
-            <a className="link" href={cvPDF} target="_blank" rel="noreferrer noopener">Download CV ></a>
+            <a className="link" href={cvPDF} target="_blank" rel="noreferrer noopener">Download CV &rsaquo;</a>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

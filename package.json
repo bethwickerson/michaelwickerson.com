@@ -1,9 +1,9 @@
 {
   "name": "react-portfolio-template",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "Portfolio Template For Michael Wickerson",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Beth Wickerson <beth@wickersonstudios.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",

@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
-    grid-gap: 30px;
+    grid-gap: 50px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
@@ -39,9 +39,10 @@
         font-size: 14px;
       }
       .link {
-        text-decoration: none;
         font-weight: 600;
-        color: black;
+        color: #999;
+        padding: 0 5px;
+        white-space: nowrap;
       }
     }
   }

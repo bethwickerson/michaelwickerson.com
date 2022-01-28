@@ -74,7 +74,7 @@ export default {
     {
       title: "Wickerson Studios, Foundry & Art Centre",
       para:
-        "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14 acre studio has facilitated visiting artists interested in metal casting and ceramics", 
+        "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14-acre studio has facilitated visiting artists interested in metal casting and ceramics", 
       imageSrc: analogImg,
       url: "https://wickersonstudios.com",
     },

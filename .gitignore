@@ -8,6 +8,7 @@ yarn-error.log*
 **/*.back.*
 node_modules/
 .cache/
+.cache*
 static/admin/*.bundle.*
 yarn-error.log
 package-lock.json

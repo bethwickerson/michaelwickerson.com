@@ -76,7 +76,7 @@ export default {
       para:
         "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14-acre studio has facilitated visiting artists interested in metal casting and ceramics", 
       imageSrc: analogImg,
-      url: "https://wickersonstudios.com",
+      url: "https://www.instagram.com/wickerson_schmidt_art_centre/",
     },
     {
       title: "MGSM",

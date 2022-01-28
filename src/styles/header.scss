@@ -1,0 +1,56 @@
+.header-wrapper {
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    font-weight: 400;
+    @include media(">=phone", "<lgphone") {
+      font-size: 14px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 16px;
+    }
+  }
+  .heading-wrapper {
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      line-height: 16px;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.6rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.8rem;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+}

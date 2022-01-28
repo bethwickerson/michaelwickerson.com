@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/Seo"
 // Components
 import Header from "../components/Header"
 import Work from "../components/Work"
@@ -12,7 +12,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <Seo title="Portfolio Template" />
     <Header></Header>
     <Work></Work>
     <About></About>

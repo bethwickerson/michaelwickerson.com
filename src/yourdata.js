@@ -147,7 +147,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Associate Professor and former Chair of Sculpture at the Kansas City Art Institute. A graduate from the University of Waterloo and York University in Canada, he has exhiited internationally in North America and Europe, collaborating with architects, engineers, programmers, and designers.",
+    "Associate Professor and former Chair of Sculpture at the Kansas City Art Institute. A graduate from the University of Waterloo and York University in Canada, he has exhibited internationally in North America and Europe, collaborating with architects, engineers, programmers, and designers.",
   aboutParaTwo:
     "Recognized as an accomplished Python developer, Wickerson's creative research incorporates mathematics, computer science, computational and parametric design, digital modeling, and programming as they relate to data visualization, machine learning, and robotics.",
   aboutParaThree:

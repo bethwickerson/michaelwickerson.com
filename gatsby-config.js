@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Michael Wickerson Portfolio`,
+    title: `Michael Wickerson - Life's Work`,
     description: `CEO and Co-founder at Wickerson Studios and Former Chair of Sculpture at Kansas City Art Institute`,
     author: `@bethwickerson`,
   },

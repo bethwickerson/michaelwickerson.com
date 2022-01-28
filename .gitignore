@@ -12,3 +12,4 @@ node_modules/
 static/admin/*.bundle.*
 yarn-error.log
 package-lock.json
+public/

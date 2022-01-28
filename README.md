@@ -2,14 +2,11 @@
 
 ## How To Use
 
-From your command line, clone and run react-portfolio-template:
+From your command line, clone and run:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/bethwickerson/michaelwickerson.com.git
-
-# Go into the repository
-$ cd react-portfolio-template
 
 # Install dependencies
 $ yarn

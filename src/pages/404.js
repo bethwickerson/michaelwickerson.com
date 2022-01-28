@@ -1,11 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Seo from "../components/Seo"
+import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
+    <SEO title="404: Not found" />
       <div className="section" id="home">
         <div className="container" style={{
           padding: "10rem 0",

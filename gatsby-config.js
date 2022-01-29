@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wickerson Studios`,
+    title: `Computational Design and Metal Fabrication`,
     description: `CEO and Co-founder at Wickerson Studios and Former Chair of Sculpture at Kansas City Art Institute`,
     author: `@bethwickerson`,
   },

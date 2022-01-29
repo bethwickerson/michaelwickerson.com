@@ -1,6 +1,6 @@
 .about-section {
   width: 80vw;
-  margin-top: 10vh;
+  padding-top: 20vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,10 +55,10 @@
       width: 100%;
     }
     img {
-      padding: 6px;
-      border: 1px solid black;
+      padding: 10px;
+      border: 1px solid #bbb;
       border-radius: 50%;
-      width: calc(90% - 15px);
+      width: calc(90% - 20px);
       height: auto;
     }
   }

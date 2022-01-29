@@ -1,6 +1,7 @@
 .footer-container {
   width: 80vw;
-  margin-top: 15vh;
+  margin-top: 10vh;
+  padding-top: 5vh;
   margin-bottom: 15vh;
   display: flex;
   flex-direction: column;
@@ -38,19 +39,23 @@
       padding: 0 10px;
       text-decoration: none;
       color: black;
+      transition: opacity 0.2s ease-in-out;
       small {
         font-size: 0.6rem;
       }
-    }
-    img {
-      height: 2rem;
-      margin: 10px;
+      img {
+        height: 1.8rem;
+        margin: 10px;
+        @include media(">=lgphone") {
+          height: 2.5rem;
+        }
+      }
+      &:hover {
+        opacity: 0.6;
+      }
     }
   }
   span {
     margin-top: 10px;
-  }
-  icon {
-    color: red;
   }
 }

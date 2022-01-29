@@ -1,6 +1,6 @@
 .header-wrapper {
   width: 80vw;
-  margin-top: 10vh;
+  padding-top: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,22 +22,22 @@
   }
   .heading-wrapper {
     h1 {
-      font-size: 4rem;
+      font-size: 4.5rem;
       text-align: center;
-      line-height: 16px;
+      line-height: 0.6;
       @include media(">=phone", "<lgphone") {
-        font-size: 1.6rem;
+        font-size: 1.65rem;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 1.8rem;
+        font-size: 2.3rem;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
+        font-size: 4rem;
       }
     }
   }
   p {
-    width: 50%;
+    width: 60%;
     text-align: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {

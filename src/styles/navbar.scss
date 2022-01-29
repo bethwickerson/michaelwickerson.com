@@ -1,9 +1,19 @@
 .navbar-wrapper {
-  width: 80vw;
-  margin-top: 10vh;
+  width: 100vw;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  background-color: #eee;
+  z-index: 9999;
+  @include media(">=tablet") {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    width: calc(100vw - 10rem);
+  }
   .name {
     font-weight: 600;
     display: flex;
@@ -16,6 +26,10 @@
     }
   }
   .links-wrapper {
+    margin-left: 2rem;
+    @include media(">=desktop") {
+      margin-left: 0;
+    }
     button,
     a {
       text-decoration: none;

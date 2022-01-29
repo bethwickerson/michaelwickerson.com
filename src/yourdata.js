@@ -1,6 +1,6 @@
 // favicon
 import favIcon from "./images/favicon.png"
-import pic from "./images/mike.png"
+import pic from "./images/mike.jpg"
 // images
 import digitalImg from "./images/wickersonstudios-digital.jpg"
 import analogImg from "./images/wickersonstudios-analog.jpg"
@@ -13,6 +13,7 @@ import waamImg from "./images/waam.jpg"
 import diImg from "./images/di.jpg"
 import umkcImg from "./images/umkc.jpg"
 import fisherImg from "./images/fisherofmen.jpg"
+import ghbookImg from "./images/fangrasshopper.jpg"
 
 // Skills Icons
 import rhinoIcon from "./images/rhino3D.png"
@@ -107,6 +108,12 @@ export default {
       url: "https://www.digitalfutures.world/workshops/84.html",
     },
     {
+      title: "Fansgrasshopper",
+      para: "400+ page computational design publication, full stack development",
+      imageSrc: ghbookImg,
+      //url: "",
+    },
+    {
       title: "Visiting Scholar, Dimensional Innovations",
       para:
         "A visiting scholar engagement to access and work at the DI facility on a part-time basis, interact with DI employees, have visibility to DI work and client projects, and hold various discussions around DI's work and capabilities.", 
@@ -131,11 +138,11 @@ export default {
       para: "Authenticity has become a key word in my life and it reflects my ability to positively affect the existing world around me. It is a force that can be defined by work and distance, however I recognize that my heart must power the work and the distance covered must be done through personal vision.",
       imageSrc: bookletImg,
       url: "https://www.blurb.com/books/2465412-10wickerson11",
-    },
+    }
     /*
     If You Want To Add More Project just Copy and Paste This At The End
     {
-      title: "",
+      title: "Fansgrasshopper, 400+ page computational design publication, full stack development",
       para: ""
       imageSrc:,
       url: "",

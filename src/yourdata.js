@@ -3,7 +3,8 @@ import favIcon from "./images/favicon.png"
 import pic from "./images/mike.jpg"
 // images
 import digitalImg from "./images/wickersonstudios-digital.jpg"
-import analogImg from "./images/wickersonstudios-analog.jpg"
+import analogImg from "./images/wickersonstudios_foundry.jpg"
+import fokImg from "./images/wickersonstudios-analog.jpg"
 import domImg from "./images/dominion.jpg"
 import msgmImg from "./images/MSGM.jpg"
 import artImg from "./images/artworks.jpg"
@@ -14,6 +15,8 @@ import diImg from "./images/di.jpg"
 import umkcImg from "./images/umkc.jpg"
 import fisherImg from "./images/fisherofmen.jpg"
 import ghbookImg from "./images/fangrasshopper.jpg"
+import mitImg from "./images/MIT_RAM.jpg"
+import myFile from "./images/JR_Imageworks.pdf";
 
 // Skills Icons
 import rhinoIcon from "./images/rhino3D.png"
@@ -59,6 +62,13 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "MIT Reality Hack",
+      para:
+        "XR Hackathon project exploring a memory loss simulation environment to promote empathy with Alzheimer's disease patients", 
+      imageSrc: mitImg,
+      url: "https://devpost.com/software/ram-randomly-accessed-memories",
+    },
+    {
       title: "Teaching on Patreon and YouTube",
       para:
         "Training digital artists in the Rhino3d environment by teaching parametric and computational design with a focus on scripting in python and C# on the grasshopper canvas", 
@@ -78,6 +88,13 @@ export default {
         "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14-acre studio has facilitated visiting artists interested in metal casting and ceramics", 
       imageSrc: analogImg,
       url: "https://www.instagram.com/wickerson_schmidt_art_centre/",
+    },
+    {
+      title: "Fire Over Kansas",
+      para:
+        "Collaboration with with photographer Jaroslaw Rodcyz, from the series 'The Art Spaces', a result of the artist's long-term work in the years 2012-2022. Fire Over Kansas captures Wickersons Studios as a combination of a Roman Settlement in ancient Britannia meets Native American structure.", 
+      imageSrc: fokImg,
+      url: myFile,
     },
     {
       title: "MGSM",

@@ -16,7 +16,9 @@ import umkcImg from "./images/umkc.jpg"
 import fisherImg from "./images/fisherofmen.jpg"
 import ghbookImg from "./images/fangrasshopper.jpg"
 import mitImg from "./images/MIT_RAM.jpg"
-import myFile from "./images/JR_Imageworks.pdf";
+import myFile from "./images/JR_Imageworks.pdf"
+import designImg from "./images/design-technology.jpg"
+import designPdf from "./images/design-technology.pdf";
 
 // Skills Icons
 import rhinoIcon from "./images/rhino3D.png"
@@ -62,44 +64,51 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Design Technology Marathon",
+      para:
+        "Keynote Speaker for the 2nd Annual Perkins Eastman Technology Marathon on Thursday - October 13, 2022",
+      imageSrc: designImg,
+      url: designPdf,
+    },
+    {
       title: "MIT Reality Hack",
       para:
-        "XR Hackathon project exploring a memory loss simulation environment to promote empathy with Alzheimer's disease patients", 
+        "XR Hackathon project exploring a memory loss simulation environment to promote empathy with Alzheimer's disease patients",
       imageSrc: mitImg,
       url: "https://devpost.com/software/ram-randomly-accessed-memories",
     },
     {
       title: "Teaching on Patreon and YouTube",
       para:
-        "Training digital artists in the Rhino3d environment by teaching parametric and computational design with a focus on scripting in python and C# on the grasshopper canvas", 
+        "Training digital artists in the Rhino3d environment by teaching parametric and computational design with a focus on scripting in python and C# on the grasshopper canvas",
       imageSrc: digitalImg,
       url: "https://www.patreon.com/MichaelWickerson",
     },
     {
       title: "The Dominion",
       para:
-        "Co-development of a conic solver plugin for Rhino 3D, offering a set of tools for generating highly accurate conic sections from fundamental mathematical equations", 
+        "Co-development of a conic solver plugin for Rhino 3D, offering a set of tools for generating highly accurate conic sections from fundamental mathematical equations",
       imageSrc: domImg,
       url: "http://the-dominion.dev/",
     },
     {
       title: "Wickerson Studios, Foundry & Art Centre",
       para:
-        "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14-acre studio has facilitated visiting artists interested in metal casting and ceramics", 
+        "CEO and Co-Founder, Wickerson Studios has been in operation for over a decade, supporting both digital and analog artists.  The 14-acre studio has facilitated visiting artists interested in metal casting and ceramics",
       imageSrc: analogImg,
       url: "https://www.instagram.com/wickerson_schmidt_art_centre/",
     },
     {
       title: "Fire Over Kansas",
       para:
-        "Collaboration with with photographer Jaroslaw Rodcyz, from the series 'The Art Spaces', a result of the artist's long-term work in the years 2012-2022. Fire Over Kansas captures Wickersons Studios as a combination of a Roman Settlement in ancient Britannia meets Native American structure.", 
+        "Collaboration with with photographer Jaroslaw Rodcyz, from the series 'The Art Spaces', a result of the artist's long-term work in the years 2012-2022. Fire Over Kansas captures Wickersons Studios as a combination of a Roman Settlement in ancient Britannia meets Native American structure.",
       imageSrc: fokImg,
       url: myFile,
     },
     {
       title: "MGSM",
       para:
-        "Co-organized the educational program sponsored partially and organized by HASSAB, which dreams to change the Arabic world for a better place by building bridges internationally between different cultures and increase the interdisciplinary interaction with different professionals from around the world.", 
+        "Co-organized the educational program sponsored partially and organized by HASSAB, which dreams to change the Arabic world for a better place by building bridges internationally between different cultures and increase the interdisciplinary interaction with different professionals from around the world.",
       imageSrc: msgmImg,
       url: "https://mgsm.org/",
     },
@@ -113,14 +122,14 @@ export default {
     {
       title: "Drawings, Metal Castings, Installations",
       para:
-        "25+ years of visual art making", 
+        "25+ years of visual art making",
       imageSrc: artImg,
       url: "https://www.instagram.com/michaelwickerson",
     },
     {
       title: "Digital Futures, WAAM Robotics Workshop",
       para:
-        "Participation in the interdisciplinary workshop organized jointly by the Mechanical Engineering and Architecture Departments at the American University in Cairo (AUC), Egypt. ", 
+        "Participation in the interdisciplinary workshop organized jointly by the Mechanical Engineering and Architecture Departments at the American University in Cairo (AUC), Egypt. ",
       imageSrc: waamImg,
       url: "https://www.digitalfutures.world/workshops/84.html",
     },
@@ -133,14 +142,14 @@ export default {
     {
       title: "Visiting Scholar, Dimensional Innovations",
       para:
-        "A visiting scholar engagement to access and work at the DI facility on a part-time basis, interact with DI employees, have visibility to DI work and client projects, and hold various discussions around DI's work and capabilities.", 
+        "A visiting scholar engagement to access and work at the DI facility on a part-time basis, interact with DI employees, have visibility to DI work and client projects, and hold various discussions around DI's work and capabilities.",
       imageSrc: diImg,
       url: "https://dimin.com/",
     },
     {
       title: "Entrepreneurial Scholars Certificate Program",
       para:
-        "Completed the E-Scholars program for the Bloch School of Engineering and Applied Science at the University of Missouri, Kansas City, to gain experience in the field of entrepreneurship.", 
+        "Completed the E-Scholars program for the Bloch School of Engineering and Applied Science at the University of Missouri, Kansas City, to gain experience in the field of entrepreneurship.",
       imageSrc: umkcImg,
       url: "https://bloch.umkc.edu/entrepreneurship/",
     },
@@ -353,9 +362,10 @@ export default {
       title: "Patreon",
       url: "https://www.patreon.com/MichaelWickerson",
     },
-    { img: githubIcon, 
-    title: "Github",
-    url: "https://github.com/mwickerson" 
+    {
+      img: githubIcon,
+      title: "Github",
+      url: "https://github.com/mwickerson"
     },
     {
       img: youtubeIcon,
